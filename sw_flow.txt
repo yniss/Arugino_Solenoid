@@ -1,0 +1,9 @@
+Flow:
+Each x minutes sensor is operated for a while, and moisture is read.
+If soil is dry:
+  If water level: 
+    /       or        \
+  low                high 
+   |                   |
+turn-on red led     turn-off red led and operate
+		    pump for x sec 
